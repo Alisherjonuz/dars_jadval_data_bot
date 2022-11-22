@@ -39,5 +39,5 @@ async def checker(call: types.CallbackQuery):
             invite_link = await channel.export_invite_link()
             result += (f" ❌❌❌ <b>{channel.title}</b> kanaliga obuna bo'lmagansiz. "
                        f"<a href='{invite_link}'>Obuna bo'ling</a>\n\n")
-
+e
     await call.message.answer(result, disable_web_page_preview=True)
